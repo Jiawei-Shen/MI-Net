@@ -5,10 +5,10 @@ This is the code for our paper "Implicit Euler ODE Networks for Single-Image Deh
 
 ![MI-Net](https://github.com/Jiawei-Shen/MI-Net/blob/master/fig/MI-Net.png)
 
-#Citation
+# Citation
 If you find MI-Net useful in your research, please consider citing:
 
-'''
+```
 @inproceedings{shen2020implicit,
   title={Implicit Euler ODE Networks for Single-Image Dehazing},
   author={Shen, Jiawei and Li, Zhuoyan and Yu, Lei and Xia, Gui-Song and Yang, Wen},
@@ -16,4 +16,4 @@ If you find MI-Net useful in your research, please consider citing:
   pages={218--219},
   year={2020}
 }
-'''
+```

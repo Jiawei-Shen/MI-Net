@@ -18,3 +18,10 @@ If you find MI-Net useful in your research, please consider citing:
   year={2020}
 }
 ```
+
+Benchmark results
+-----
+
+![PSNR/SSIM](https://github.com/Jiawei-Shen/MI-Net/blob/master/fig/PSNR_SSIMs.png)
+
+![MI-Net](https://github.com/Jiawei-Shen/MI-Net/blob/master/fig/OURS.jpg) ![MI-Net](https://github.com/Jiawei-Shen/MI-Net/blob/master/fig/OUT.jpg)

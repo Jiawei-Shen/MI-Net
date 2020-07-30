@@ -5,8 +5,8 @@ This is the code for our paper "Implicit Euler ODE Networks for Single-Image Deh
 
 ![MI-Net](https://github.com/Jiawei-Shen/MI-Net/blob/master/fig/MI-Net.png)
 
-Citation
------
+## Citation
+
 If you find MI-Net useful in your research, please consider citing:
 
 ```
@@ -19,9 +19,24 @@ If you find MI-Net useful in your research, please consider citing:
 }
 ```
 
-Benchmark results
------
-
+## Benchmark Results
 ![PSNR/SSIM](https://github.com/Jiawei-Shen/MI-Net/blob/master/fig/PSNR_SSIMs.png)
 
-![MI-Net](https://github.com/Jiawei-Shen/MI-Net/blob/master/fig/OURS.jpg) ![MI-Net](https://github.com/Jiawei-Shen/MI-Net/blob/master/fig/OUT.jpg)
+![](https://github.com/Jiawei-Shen/MI-Net/blob/master/fig/OURS.jpg) ![](https://github.com/Jiawei-Shen/MI-Net/blob/master/fig/OUT.jpg)
+
+![](https://github.com/Jiawei-Shen/MI-Net/blob/master/fig/OURSFLOWER.jpg) ![](https://github.com/Jiawei-Shen/MI-Net/blob/master/fig/HAZYFLOWER.jpg)
+
+## Train
+
+```
+python main.py
+```
+Before the training process, you have to reset the parameters in ```main.py```, for an instance, the path of your datasets and result.
+
+## Test
+
+```
+python test_dehazy.py
+```
+Also, you have to reset the path parameters before the image test.
+

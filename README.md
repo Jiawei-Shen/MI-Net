@@ -38,6 +38,7 @@ For the training dataset, you can use images directly with our dataset building 
 ### 
 [[RESIDE_Dataset]](https://sites.google.com/view/reside-dehaze-datasets/reside-v0)
 
+[[Middlebury_Dataset](https://drive.google.com/file/d/1DbiOTgA7jEvACO1IGwOsSfWlcBZefoj1/view?usp=sharing)
 
 ## Test
 

@@ -5,7 +5,7 @@ import numpy as np
 import torch.backends.cudnn as cudnn
 import torch.nn as nn
 import torch.optim as optim
-import MINET as NET
+import MINet as NET
 
 from torch.autograd import Variable
 from torch.utils.data import DataLoader
@@ -98,7 +98,7 @@ def main():
 
 	
 	print("===> Building model")
-	model = NET.MINET()
+	model = NET.MI_NET()
 	
 	model = nn.DataParallel(model)
 	#cudnn.benchmark = True

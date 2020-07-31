@@ -179,7 +179,7 @@ class MI_Net(nn.Module):
 
         self.deconv1 = nn.Conv2d(64, out_c, 1)
 
-        self.deconv2 = nn.Conv2d(out_c, out_c, 1)
+        self.deconv = nn.Conv2d(out_c, out_c, 1)
 
         self.pre_processing = nn.Sequential(
             ResidualBlock(64, dilation=1),
@@ -233,9 +233,9 @@ class MI_Net(nn.Module):
 
         gates = self.gate(torch.cat((x1, x2, x3), dim=1))
         
-        gated_y = x1 * gates[:, [0], :, :] + x2 * gates[:, [1], :, :] + x3 * gates[:, [2], :, :]
+        gated_X = x1 * gates[:, [0], :, :] + x2 * gates[:, [1], :, :] + x3 * gates[:, [2], :, :]
 
-        x = F.relu(self.norm4(self.deconv3(gated_x)))
+        x = F.relu(self.norm4(self.deconv3(gated_X)))
 
         x = F.relu(self.norm5(self.deconv2(x)))
 
@@ -247,6 +247,6 @@ class MI_Net(nn.Module):
         x=nn.LeakyReLU(0.1,inplace=False)(x)                                
         x=x+torch.mul(x,self.layer1(x))
 
-        x = self.deconv2(x)
+        x = self.deconv(x)
 
         return x

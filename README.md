@@ -35,6 +35,10 @@ Before the training process, you have to reset the parameters in ```main.py```, 
 
 For the training dataset, you can use images directly with our dataset building functions in ```create.py``` (Note that the names between input and ground-truth have to be corresponding!) or use the dataset in PyTorch form.
 
+### 
+[[RESIDE_Dataset]](https://sites.google.com/view/reside-dehaze-datasets/reside-v0)
+
+
 ## Test
 
 ```

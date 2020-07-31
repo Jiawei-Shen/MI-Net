@@ -32,7 +32,8 @@ If you find MI-Net useful in your research, please consider citing:
 python main.py
 ```
 Before the training process, you have to reset the parameters in ```main.py```, for an instance, the path of your datasets and result.
-For the training dataset, you can use images directly with our dataset building functions in ```create.py``` (Note that the names between input and ground-truth have to be correponding!) or use dataset in pytorch form.
+
+For the training dataset, you can use images directly with our dataset building functions in ```create.py``` (Note that the names between input and ground-truth have to be corresponding!) or use the dataset in PyTorch form.
 
 ## Test
 

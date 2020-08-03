@@ -45,5 +45,5 @@ For the training dataset, you can use images directly with our dataset building 
 ```
 python test_dehazy.py
 ```
-Also, you have to reset the path parameters before the image test.
+You can use the pretrained model we provided to test the images. Also, you have to reset the path parameters before the image test. 
 

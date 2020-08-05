@@ -26,6 +26,10 @@ If you find MI-Net useful in your research, please consider citing:
 
 ![](https://github.com/Jiawei-Shen/MI-Net/blob/master/fig/OURSFLOWER.jpg) ![](https://github.com/Jiawei-Shen/MI-Net/blob/master/fig/HAZYFLOWER.jpg)
 
+## Prerequistes
+* Ubuntu 16.04
+* Pytorch 1.0.1
+
 ## Train
 
 ```
